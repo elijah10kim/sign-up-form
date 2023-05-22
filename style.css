@@ -21,6 +21,8 @@ body {
     color: aliceblue;
     background: rgba(20, 41, 55, 0.6);
     margin-top: 20vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
 }
 
 #turtle-logo {
