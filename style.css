@@ -8,6 +8,8 @@ body {
 .sidebar-container {
     width:30vw;
     min-width: min-content;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("assets/dm-david-qAaGXj-AOv4-unsplash.jpg");
     background-color: lightskyblue;
 }
