@@ -4,6 +4,7 @@ body {
     display:flex;
     height: 100vh;
     width: 100vw;
+    font-family: 'Oswald', sans-serif;
 }
 
 .sidebar-container {
@@ -23,7 +24,6 @@ body {
     color: aliceblue;
     background: rgba(20, 41, 55, 0.6);
     margin-top: 20vh;
-    font-family: 'Oswald', sans-serif;
     font-size: larger;
 }
 
@@ -45,6 +45,11 @@ body {
     overflow: hidden;
 }
 
+#message-section{
+    padding: 20px;
+    font-size: x-large;
+}
+
 .form-input-container {
     max-width: 100%;
     width: 100%;
@@ -53,7 +58,7 @@ body {
     background-color: white;
     align-items: start;
     padding:20px 20px 20px 20px;
-    box-shadow: 0 0 5px;
+    box-shadow: 0 0 3px;
 }
 
 form{
@@ -64,4 +69,18 @@ form{
 .input-field{
     width: 65%;
     padding: 5px;
+}
+
+.submit-section{
+    padding: 20px;
+}
+
+button{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    background-color: rgb(19, 199, 227);
+    border: 1px;
+    padding: 12px;
+    border-radius: 5px;
 }
