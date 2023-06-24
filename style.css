@@ -24,7 +24,7 @@ body {
     color: aliceblue;
     background: rgba(20, 41, 55, 0.6);
     margin-top: 20vh;
-    font-size: larger;
+    font-size: x-large;
 }
 
 #turtle-logo {
@@ -40,9 +40,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     background-color: rgb(237, 242, 247);
     overflow: hidden;
+    padding-bottom: 120px;
 }
 
 #message-section{
@@ -52,13 +53,16 @@ body {
 
 .form-input-container {
     max-width: 100%;
-    width: 100%;
+    width: 70%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     background-color: white;
-    align-items: start;
-    padding:20px 20px 20px 20px;
-    box-shadow: 0 0 3px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 0 0 10px;
+    padding-bottom: 45px;
 }
 
 form{
@@ -67,8 +71,17 @@ form{
 }
 
 .input-field{
-    width: 65%;
-    padding: 5px;
+    width: 85%;
+    padding: 15px;
+}
+
+form input {
+    width:100%;
+    font-size: large;
+}
+
+form label {
+    font-size: larger;
 }
 
 .submit-section{
@@ -78,7 +91,7 @@ form{
 button{
     color: white;
     font-family: 'Oswald', sans-serif;
-    font-size: large;
+    font-size: larger;
     background-color: rgb(19, 199, 227);
     border: 1px;
     padding: 12px;
