@@ -35,7 +35,7 @@
             <form id="signup-form">
                     <div class="input-field">
                         <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name" name="first-name"/>
+                        <input type="text" id="first-name" name="first-name" required/>
                     </div>
                     <div class="input-field">
                         <label for="last-name">Last Name:</label>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="input-field">
                         <label for="user-email">Email:</label>
-                        <input type="email" id="user-email" name="user-email"/>
+                        <input type="email" id="user-email" name="user-email" required/>
                     </div>
                     <div class="input-field">
                         <label for="phone-number">Phone Number:</label>
@@ -54,8 +54,9 @@
                         <input type="password" id="user-password" name="user-password" required>
                     </div>
                     <div class="input-field">
-                        <label for="user-password">Confirm Password:</label>
-                        <input type="password" id="user-password" name="user-password" required>
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                        <small id="password-check"></small>
                     </div>
             </form>
         </div>
@@ -63,5 +64,6 @@
             <button type="submit" form="signup-form">Create Account</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
