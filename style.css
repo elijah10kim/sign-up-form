@@ -108,3 +108,8 @@ button{
     padding: 12px;
     border-radius: 5px;
 }
+
+button:active {
+    background-color: rgb(11, 126, 144);
+    transform: scale(0.95);
+}
